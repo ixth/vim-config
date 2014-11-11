@@ -187,6 +187,9 @@ NeoBundle 'Shougo/neomru.vim'
 " Plugin for chord mappings
 NeoBundle 'kana/vim-arpeggio'
 
+" Yate syntax highlighting
+NeoBundle 'maksimr/vim-yate'
+
 " JShint :)
 " But not necessary with syntastics
 " NeoBundle 'walm/jshint.vim'
@@ -741,6 +744,7 @@ if has("autocmd")
         au BufRead,BufNewFile *.xjst set ft=javascript
         au BufRead,BufNewFile *.tt2 set ft=tt2
         au BufRead,BufNewFile *.plaintex set ft=plaintex.tex
+        au BufRead,BufNewFile *.yate set ft=yate
 
         " Auto close preview window, it uses with tags,
         " I don't use it
