@@ -72,6 +72,9 @@ NeoBundle 'honza/vim-snippets'
 " Colorscheme solarazied for vim
 NeoBundle 'altercation/vim-colors-solarized'
 
+" Colorscheme Zenburn for vim
+NeoBundle 'jnurmine/Zenburn'
+
 " Allow autoclose paired characters like [,] or (,),
 " and add smart cursor positioning inside it,
 NeoBundle 'Raimondi/delimitMate'
@@ -449,7 +452,7 @@ call arpeggio#map('i', '', 0, 'jk', '<ESC>')
 " Colorscheme
 
 " Use solarized colorscheme
-colorscheme solarized
+colorscheme zenburn
 
 " Setting up light color scheme
 set background=light
