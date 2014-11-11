@@ -775,3 +775,5 @@ if has("gui_running")
     set guifont=Consolas:h13:cANSI
   endif
 endif
+
+let g:netrw_silent=1
