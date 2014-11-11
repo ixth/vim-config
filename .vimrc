@@ -711,7 +711,7 @@ vmap <leader>s :s//<left>
 nmap <leader>w <C-w>w
 
 "--------------------------------------------------
-" Aautocmd
+" Autocmd
 
 " It executes specific command when specific events occured
 " like reading or writing file, or open or close buffer
