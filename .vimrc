@@ -758,3 +758,16 @@ if has("autocmd")
     augroup END
 
 endif
+
+"--------------------------------------------------
+" Gvim settings
+
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 13
+  elseif has("gui_macvim")
+    set guifont=Andale\ Mono:h13
+  elseif has("gui_win32")
+    set guifont=Consolas:h13:cANSI
+  endif
+endif
